@@ -1,4 +1,4 @@
-with open('aeojaoej.txt') as f:
+with open('Untitled.txt') as f:
     lines = f.readlines()
 
 with open('Början.txt') as f:
@@ -25,7 +25,7 @@ for line1 in lines:
     
 texten += Slutet
 
-print(texten)
+#print(texten)
 file = open('bp.sbc', 'w')
 file.write(texten)
 file.close()
